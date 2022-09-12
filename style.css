@@ -193,14 +193,12 @@ body {
     font-size: 21px;
     text-decoration: none;
     line-height: 40px;
-}
-
-.sub-menu li:hover {
-    background-color: #ffffff;
+    display: block;
 }
 
 .sub-menu a:hover {
     color: #2c71b8;
+    background-color: #ffffff;
 }
 
 .dropdown-image {
