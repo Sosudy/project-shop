@@ -94,6 +94,7 @@ body {
     padding-right: 0;
     width: 151px;
     height: 38px;
+    color: #2c71b8;
 }
 
 .form-search input[type=text]::-webkit-input-placeholder {
@@ -256,13 +257,19 @@ body {
     left: 630px;
     top: -45px;
     width: 25%;
-    border: 1px solid white;
+    z-index: 4;
 }
 
 .sort-menu li {
-    border: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
     height: 40px;
     background-color: #2c71b8;
+}
+
+#sort-by-price {
+    border-bottom: 1px solid white;
 }
 
 .sort-menu a {
@@ -277,6 +284,7 @@ body {
 
 .sub-menu-sort {
     display: none;
+    position: absolute;
 }
 
 .sort-menu:hover .sub-menu-sort{
@@ -401,4 +409,12 @@ body {
 
 .add-to-cart-button {
     margin-top: 0 !important;
+}
+
+sup {
+    vertical-align: top;
+}
+
+.price-cents {
+    font-size: 25px;
 }
